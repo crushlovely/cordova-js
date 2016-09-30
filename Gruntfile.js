@@ -21,6 +21,9 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         compile: {
+            "sectv-orsay": {},
+            "sectv-tizen": {},
+            "tv-webos": {},
             "amazon-fireos": {},
             "android": {},
             "blackberry10": {},
@@ -35,6 +38,9 @@ module.exports = function(grunt) {
             "browser": {}
         },
         "compile-browserify": {
+            "sectv-orsay": {},
+            "sectv-tizen": {},
+            "tv-webos": {},
             "amazon-fireos": {},
             "android": {},
             "blackberry10": {},

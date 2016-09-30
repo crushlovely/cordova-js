@@ -74,7 +74,11 @@
   "dependencies": {
     "browserify": "13.1.0"
   },
+
   "cordova-platforms" : {
+    "cordova-sectv-orsay"   : "../cordova-sectv-orsay",
+    "cordova-sectv-tizen"   : "../cordova-sectv-tizen",
+    "cordova-tv-webos"      : "../cordova-tv-webos",
     "cordova-android"       : "../cordova-android",
     "cordova-ios"           : "../cordova-ios",
     "cordova-blackberry10"  : "../cordova-blackberry" ,
